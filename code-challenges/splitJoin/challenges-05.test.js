@@ -161,7 +161,8 @@ const removeEvenValues = (arr) => {
       result.push(item);
     }
   });
-  return result;
+  arr = result;
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
