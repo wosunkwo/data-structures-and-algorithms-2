@@ -105,19 +105,20 @@ You may also use other string or array methods.
 ------------------------------------------------------------------------------------------------ */
 
 const splitFoods = (recipe) => {
-  //
   let result = [];
   // Solution code here...
-  recipe.ingredients.forEach(item=>{
-    console.log(item);
-    item = item.substr(item.indexOf(' '));
-    item = item.trimStart();
-    console.log(item);
-    item = item.substr(item.indexOf(' '));
-    item = item.trimStart();
-    console.log(item);
-    result.push(item);
-  });
+  for(let i=0; i<recipe.ingredients.length; i++){
+    let eachItem = recipe.ingredients[i].split(' ').slice(2);
+    let str = '';
+    for(let j=0; j<eachItem.length; j++){
+      if(j === 0){
+        str += eachItem[j];
+      }else{
+        str = str + ' ' + eachItem[j];
+      }
+    }
+    result.push(str);
+  }
   return result;
 };
 
