@@ -12,4 +12,4 @@ array with the new value added at the middle index
 Big O notation is O(N), linear
 
 ## Solution
-![alt text][https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/ArrayShift.jpg]
+![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/ArrayShift.jpg)
