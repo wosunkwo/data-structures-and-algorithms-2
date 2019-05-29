@@ -10,7 +10,7 @@ public class ArrayShiftTest {
         int [] input = new int[0];
         int value = 23;
         int [] output = new int[]{23};
-        assertArrayEquals(output,obj.insertShiftArray(input,value));
+        assertArrayEquals(obj.insertShiftArray(input,value),output);
     }
 
     @Test
@@ -19,7 +19,7 @@ public class ArrayShiftTest {
         int [] input = new int[]{1,10};
         int value = 5;
         int [] output = new int[]{1,5,10};
-        assertArrayEquals(output,obj.insertShiftArray(input,value));
+        assertArrayEquals(obj.insertShiftArray(input,value),output);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class ArrayShiftTest {
         int [] input = new int[]{4,8,15,23,42};
         int value = 16;
         int [] output = new int[]{4,8,15,16,23,42};
-        assertArrayEquals(output,obj.insertShiftArray(input,value));
+        assertArrayEquals(obj.insertShiftArray(input,value),output);
     }
 
     @Test
@@ -37,7 +37,7 @@ public class ArrayShiftTest {
         int [] input = new int[]{4,8,14};
         int value = 16;
         int [] output = new int[]{4,8,14,16};
-        assertArrayEquals(output,obj.insertShiftArray(input,value));
+        assertNotEquals(obj.insertShiftArray(input,value),output);
     }
 }
 
