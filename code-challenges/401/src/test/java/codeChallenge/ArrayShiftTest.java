@@ -30,5 +30,14 @@ public class ArrayShiftTest {
         int [] output = new int[]{4,8,15,16,23,42};
         assertArrayEquals(output,obj.insertShiftArray(input,value));
     }
+
+    @Test
+    public void ArrayShift_Fail_Array(){
+        ArrayShift obj = new ArrayShift();
+        int [] input = new int[]{4,8,14};
+        int value = 16;
+        int [] output = new int[]{4,8,14,16};
+        assertArrayEquals(output,obj.insertShiftArray(input,value));
+    }
 }
 
