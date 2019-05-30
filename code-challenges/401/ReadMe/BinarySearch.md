@@ -15,6 +15,6 @@ Big O notation is O(logN),
 ![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/BinarySearch.jpg)
 
 ## Link to Code
-[ArrayShift](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/BinarySearch.java)
+[BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/BinarySearch.java)
 ## 
-[ArrayShiftTest](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/BinarySearchTest.java)
+[BinarySearchTest](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/BinarySearchTest.java)
