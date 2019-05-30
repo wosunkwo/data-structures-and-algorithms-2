@@ -45,11 +45,11 @@ public class BinarySearchTest {
         assertEquals(obj.BinarySearch(input,key),output);
     }
     @Test
-    public void testBinarySearch_Arr_Includes_Key_NotEqual(){
-        int[] input = new int []{4,8,32,534,999,1113,3000};
+    public void testBinarySearch_Arr_Includes_Key_NotEqual() {
+        int[] input = new int[]{4, 8, 32, 534, 999, 1113, 3000};
         int key = 1113;
         int output = -1;
         BinarySearch obj = new BinarySearch();
-        assertNotEquals(obj.BinarySearch(input,key),output);
+        assertNotEquals(obj.BinarySearch(input, key), output);
     }
 }
