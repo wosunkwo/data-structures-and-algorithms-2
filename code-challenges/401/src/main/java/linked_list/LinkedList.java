@@ -44,9 +44,15 @@ public class LinkedList<E>{
     public boolean includes(E item){
         return search(item,this.head);
     }
+    /**
+     *Return head of LL
+     */
     public Node getListHead(){
         return this.head;
     }
+    /**
+     *Return head of LL
+     */
     public Object getNodeValue(Node node){
         if(node != null){
             return node.item;
@@ -54,9 +60,15 @@ public class LinkedList<E>{
         else
             return 0;
     }
+    /**
+     *Return Current of LL
+     */
     public Node getListCurrent(){
         return this.current;
     }
+    /**
+     *Converts  LL into Vector
+     */
     public Vector get_LL_into_Vector(){
         Vector results = new Vector();
 
