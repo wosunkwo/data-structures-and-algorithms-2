@@ -27,6 +27,6 @@ O(1) Linear
 - A method called get_LL_into_Vector which return current LL into as a vector
 
 ## Link to Code
-[BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/linked_list/LinkedLinkTest.java)
+[BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/linked_list/LinkedList.java)
 ## 
-[BinarySearchTest](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/linked_list/LinkedLinkTest.java)
+[BinarySearchTest](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/linked_list/LinkedListTest.java)
