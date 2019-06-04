@@ -28,7 +28,7 @@ O(N) for insertBefore
 O(N) for insertAfter
 
 ## Solution
-![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/LL_Insertions.jpg)
+![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/ll_insertion.jpg)
 
 ## Link to Code
 [Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/ll_insertions.java)
