@@ -12,5 +12,8 @@ This file contain read me to each individual code challenges.
 # Challenge03:Binary Search in Sorted Array
 [BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/BinarySearch.md)
 
+# Challenge06:Binary Search in Sorted Array
+[Linked list insertions.](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/LL_Insertions.md)
+
 # Lab5:Singly Linked List
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
