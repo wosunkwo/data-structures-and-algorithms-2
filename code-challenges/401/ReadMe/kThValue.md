@@ -21,7 +21,7 @@ You have access to the Node class and all the properties on the Linked List clas
 O(N) Linear
 
 ## Solution
-![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/ll_kthFromEnd.jpg)
+![alt text](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/assets/ll_kthFronEnd.jpg)
 
 ## Link to Code
 [Code kthFromEnd](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/ll_insertions.java) 
