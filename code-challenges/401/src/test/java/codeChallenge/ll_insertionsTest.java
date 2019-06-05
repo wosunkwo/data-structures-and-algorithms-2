@@ -2,6 +2,7 @@ package codeChallenge;
 
 
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
 
 import java.util.Vector;
 
@@ -118,7 +119,7 @@ public class ll_insertionsTest {
         input.append("23242");
         input.append("120");
         input.append("40");
-        input.append("09490");
+        input.append("094901");
         input.append("11");
         input.append("70");
         input.append("1094390");
@@ -150,7 +151,7 @@ public class ll_insertionsTest {
         String output = "Item not found";
 
         assertEquals(
-                input.insertAfter("09490","set"), output);
+                input.insertAfter("094901","set"), output);
 
         input.print();
 
@@ -238,5 +239,113 @@ public class ll_insertionsTest {
 
         input.print();
 
+    }
+
+//    Code Challenge 07
+    @Test
+            (expected = NullPointerException.class)
+    public void test_kthFromEnd_EmptyLL(){
+        ll_insertions object = new ll_insertions();
+        object.kthFromEnd(9);
+    }
+    @Test
+            (expected = IllegalArgumentException.class)
+    public void test_kthFromEnd_greaterThan_LLSize(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.kthFromEnd(9);
+    }
+    @Test
+            (expected = IllegalArgumentException.class)
+    public void test_kthFromEnd_SameAs_LLSize(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.append("23BB");
+        object.append("23BA");
+        object.kthFromEnd(5);
+    }
+    @Test
+            (expected = IllegalArgumentException.class)
+    public void test_kthFromEnd_LessThanZero_LLSize(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.append("23BB");
+        object.append("23BA");
+        object.kthFromEnd(-5);
+    }
+    @Test
+    public void test_kthFromEnd_LLSizeOne(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        String output = "23";
+        assertEquals(object.kthFromEnd(0),output);
+    }
+    @Test
+    public void test_kthFromEnd_LLSizeFive_InMiddle(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.append("23C");
+        object.append("23D");
+        object.append("23E");
+        object.append("23F");
+        object.append("23G");
+        object.append("23H");
+        object.append("23II");
+        object.append("23JJ");
+        String output = "23D";
+        assertEquals(object.kthFromEnd(6),output);
+    }
+    @Test
+    public void test_kthFromEnd_LLSizeEleven_InEnd(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.append("23C");
+        object.append("23D");
+        object.append("23E");
+        object.append("23F");
+        object.append("23G");
+        object.append("23H");
+        object.append("23II");
+        object.append("23JJ");
+
+        String output = "23";
+        assertEquals(object.kthFromEnd(10),output);
+    }
+    @Test
+    public void test_kthFromEnd_LLSizeEleven_InFront(){
+        ll_insertions object = new ll_insertions();
+        object.append("23");
+        object.append("23A");
+        object.append("23B");
+        object.append("23C");
+        object.append("23D");
+        object.append("23E");
+        object.append("23F");
+        object.append("23G");
+        object.append("23H");
+        object.append("23II");
+        object.append("23JJ");
+
+        String output = "23JJ";
+        assertEquals(object.kthFromEnd(0),output);
+    }
+    @Test
+    public void test_kthFromEnd_LLSizeTwo_InFront(){
+        ll_insertions object = new ll_insertions();
+        object.append("23-1");
+        object.append("23-0");
+
+        String output = "23-0";
+        assertEquals(object.kthFromEnd(0),output);
     }
 }

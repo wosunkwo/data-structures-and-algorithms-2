@@ -1,6 +1,5 @@
 package codeChallenge;
 
-import java.sql.Wrapper;
 import java.util.*;
 import java.lang.annotation.ElementType;
 
@@ -17,18 +16,21 @@ public class ll_insertions<E>{
             this.item = item;
             this.next=null;
         }
+        public E getItem(){ return this.item;}
     }
     /**
      *properties
      */
     private Node<E> head;
     private Node<E> current;
+    private int size;
     /**
      *Constructor
      */
     ll_insertions(){
         head =null;
         current = null;
+        size = 0;
     }
     /**
      *Methods
@@ -79,12 +81,12 @@ public class ll_insertions<E>{
     /**
      *Return head of LL
      */
-    public Object getNodeValue(Node node){
+    public E getNodeValue(Node<E> node){
         if(node != null){
             return node.item;
         }
         else
-            return 0;
+            return null;
     }
     /**
      *Return Current of LL
@@ -130,11 +132,13 @@ public class ll_insertions<E>{
             if(head == null){
                 head = newNode;
                 current = newNode;
+                this.size++;
             }
             else{
                 if(current.next == null){
                     current.next = newNode;
                     current = newNode;
+                    this.size++;
                 }
             }
         }
@@ -146,7 +150,7 @@ public class ll_insertions<E>{
     /**
      *Search items in LL
      */
-    private boolean search(E item, Node node){
+    private boolean search(E item, Node<E> node){
 
         if(node == null) {
             return false;
@@ -205,11 +209,12 @@ public class ll_insertions<E>{
             if(list.get(0).equals(list.get(1))){
                 this.head = newNode;
                 this.head.next = list.get(0);//i.e head.next = currentNode ( currentNode WAS head)
+                this.size++;
             }
             else{
                 newNode.next = list.get(0);// newNode next currentNode so it before that
                 list.get(1).next = newNode;// previous node next is newNode
-
+                this.size++;
             }
 
             result = "Insert Before Successfull";
@@ -232,13 +237,20 @@ public class ll_insertions<E>{
             //list[0] represtend current node
             //list[1] represents previous Node
             Node newNode = new Node(newVal);
+            //if there is just one node in the list
             if(list.get(0).equals(list.get(1))){
                 newNode.next = head.next;
                 head.next = newNode;
+                this.size++;
+                this.current = newNode;
             }
             else{
+                if(this.current.equals(list.get(0))){
+                    this.current =newNode;
+                }
                 newNode.next = list.get(0).next;// this is similar to node.next;
                 list.get(0).next = newNode;//node.next = newNode
+                this.size++;
             }
 
             result = "Insert After Successfull";
@@ -247,6 +259,42 @@ public class ll_insertions<E>{
             result = "Item not found";
         }
         return result;
+    }
+    /**
+     *AppendAfter items in LL
+     * Initially Node node head
+     */
+    public int getSize(){
+        return this.size;
+    }
+    /**
+     *Code Challenge 07
+     * k-th value from the end of a linked list
+     */
+    public E kthFromEnd(int item){
+        int result = -1;
+        if(this.getListHead() == null){
+            throw new NullPointerException("The Linked List is empty");
+        }
+        else if(this.getSize() < item){
+            throw new IllegalArgumentException("Argument passed can't exceed the size of linked list");
+        }
+        else if(this.getSize() == item){
+            throw new IllegalArgumentException("Argument passed can't be of the same size of linked list");
+        }
+        else if(item < 0 ){
+            throw new IllegalArgumentException("Argument passed can't be less than zero");
+        }
+
+        else{
+            int difference = this.getSize() - item -1;
+            Node<E> node = this.getListHead();
+            for(int i = 0 ; i < difference; i++){
+                node = node.next;
+            }
+            return node.getItem();
+
+        }
     }
 }
 
