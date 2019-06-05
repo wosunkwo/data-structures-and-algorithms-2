@@ -3,17 +3,20 @@
 ## Table of Contents
 This file contain read me to each individual code challenges.
 
-# Challenge 01: ArrayReverse
+## Challenge 01: ArrayReverse
 [ArrayReverse](https://github.com/skadariya/data-structures-and-algorithms/tree/master/code-challenges/401/PreWork)
 
-# Challenge02:ArrayShift
+## Challenge02:ArrayShift
 [ArrayShift](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/ArrayShift_ReadMe.md)
 
-# Challenge03:Binary Search in Sorted Array
+## Challenge03:Binary Search in Sorted Array
 [BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/BinarySearch.md)
 
-# Challenge06:Binary Search in Sorted Array
+## Challenge06:Binary Search in Sorted Array
 [Linked list insertions.](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/LL_Insertions.md)
+
+## Challenge07:k-th value from the end of a linked list.
+[k-th value](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/kThValue.md)
 
 # Lab5:Singly Linked List
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
