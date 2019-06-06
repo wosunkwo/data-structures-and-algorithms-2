@@ -19,7 +19,7 @@ This file contain read me to each individual code challenges.
 [k-th value](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/kThValue.md)
 
 ## Challenge08: Merge two linked lists.
-[k-th value](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/merge.md)
+[Merge](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/merge.md)
 
 # Lab5:Singly Linked List
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
