@@ -139,8 +139,7 @@ public class LinkedListTest {
         assertEquals(
                 input.get_LL_into_Vector(), output
         );
-
-
     }
+
 
 }
