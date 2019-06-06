@@ -1,9 +1,11 @@
 package codeChallenge;
 
 
+
 import org.junit.Test;
 import org.junit.experimental.theories.suppliers.TestedOn;
 
+import java.security.InvalidParameterException;
 import java.util.Vector;
 
 import static org.junit.Assert.*;
@@ -347,5 +349,131 @@ public class ll_insertionsTest {
 
         String output = "23-0";
         assertEquals(object.kthFromEnd(0),output);
+    }
+    //Code Challenge 08 : Merge
+    @Test
+    public void testInsert_Merge_EvenEven(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        input.append("23242");
+        input.append("120");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input1.append("C");
+        input = input.merge(input,input1);
+        int output =6;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_LL_OddEvenParam(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        input.append("23242");
+        input.append("120");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input = input.merge(input,input1);
+        int output =5;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_LL_EvenOddParam(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        input.append("23242");
+
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input1.append("C");
+        input = input.merge(input,input1);
+        int output =4;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_LL_EvenEven(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        input.append("23242");
+
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input = input.merge(input,input1);
+        int output =4;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+            (expected = InvalidParameterException.class)
+    public void testInsert_Merge_LL_EmptyFirst() {
+        ll_insertions<String> input = new ll_insertions<String>();
+
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input = input.merge(input, input1);
+        int output = 4;
+    }
+    @Test
+    public void testInsert_Merge_oneNode_manyNode(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input1.append("B1");
+        input1.append("B2");
+
+        input = input.merge(input,input1);
+        int output =2;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_manyNode_oneNode(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+        input1.append("B");
+        input1.append("B1");
+        input1.append("B2");
+        input1 = input1.merge(input1,input);
+        int output =5;
+        input.print();
+        assertEquals(input1.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_oneNode_oneNode(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+
+        input = input.merge(input,input1);
+        int output =2;
+        input.print();
+        assertEquals(input.getSize(),output);
+    }
+    @Test
+    public void testInsert_Merge_ManyNode_none(){
+        ll_insertions<String> input = new ll_insertions<String>();
+        input.append("1");
+        input.append("2");
+        input.append("3");
+        input.append("4");
+        ll_insertions<String> input1 = new ll_insertions<String>();
+        input1.append("A");
+
+        input = input.merge(input,input1);
+        int output =4;
+        input.print();
+        assertEquals(input.getSize(),output);
     }
 }

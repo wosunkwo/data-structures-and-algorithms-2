@@ -1,5 +1,6 @@
 package codeChallenge;
 
+import java.security.InvalidParameterException;
 import java.util.*;
 import java.lang.annotation.ElementType;
 
@@ -295,6 +296,42 @@ public class ll_insertions<E>{
             return node.getItem();
 
         }
+    }
+    /**
+     *Code Challenge 08
+     * merge two LL
+     */
+    public ll_insertions<E> merge(ll_insertions<E> first, ll_insertions<E> second){
+
+        if(second.head == null){
+
+        }
+        else if(first.head == null){
+            throw new InvalidParameterException("First Linked List can't be null");
+        }
+        else{
+            Node firstLead = first.head.next;
+            Node firstFollow = first.head;
+            Node secondFollow = second.head;
+            while(firstLead != null && secondFollow != null){
+                //pointing down
+                firstFollow.next = secondFollow;
+                //place holder
+                Node temp = secondFollow.next;
+                //pointing up
+                secondFollow.next= firstLead;
+                //updating pointers
+               firstFollow = firstLead;
+               firstLead=firstLead.next;
+               secondFollow =temp;
+                this.size++;
+            }
+            if(secondFollow!=null){
+                firstFollow.next = secondFollow;
+                this.size++;
+            }
+        }
+        return first;
     }
 }
 
