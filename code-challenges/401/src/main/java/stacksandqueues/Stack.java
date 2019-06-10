@@ -9,7 +9,7 @@ public class Stack<T> {
     private Node first;
 
     //constructor
-    Stack(){
+    public Stack(){
         this.root = null;
         this.first = null;
     }
