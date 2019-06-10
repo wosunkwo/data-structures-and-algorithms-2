@@ -25,4 +25,4 @@ This file contain read me to each individual code challenges.
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
 
 # Lab10: Stack and Queue
-[Stack and Queue] (https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/stackQueue.md)
+[Stack and Queue](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/stackQueue.md)
