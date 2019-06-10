@@ -1,7 +1,9 @@
 # 401-Java-Code-Challenges
 
 ## Table of Contents
-This file contain read me to each individual code challenges.
+This file contain read me to each individual code challenges and labs under each heading
+
+# Code Challenge
 
 ## Challenge 01: ArrayReverse
 [ArrayReverse](https://github.com/skadariya/data-structures-and-algorithms/tree/master/code-challenges/401/PreWork)
@@ -20,6 +22,11 @@ This file contain read me to each individual code challenges.
 
 ## Challenge08: Merge two linked lists.
 [Merge](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/merge.md)
+
+## Challenge11: A Queue with two Stacks
+[Queue with two Stacks]((https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/queueTwoStacks.md)
+
+# Labs
 
 # Lab5:Singly Linked List
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
