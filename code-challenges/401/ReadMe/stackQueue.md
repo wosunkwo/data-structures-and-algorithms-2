@@ -20,7 +20,7 @@ A method called enqueue which takes any value as an argument and adds a new node
 A method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
 A method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
 
-##Codes
+## Codes
 
 [Code Source](https://github.com/skadariya/data-structures-and-algorithms/tree/master/code-challenges/401/src/main/java/stacksandqueues)
 
