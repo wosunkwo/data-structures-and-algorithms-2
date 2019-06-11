@@ -472,7 +472,7 @@ public class ll_insertionsTest {
         input1.append("A");
 
         input = input.merge(input,input1);
-        int output =4;
+        int output = 5;
         input.print();
         assertEquals(input.getSize(),output);
     }
