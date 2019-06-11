@@ -56,6 +56,7 @@ public class QueueWithStacksTest {
         o.dequeue();
         o.dequeue();
         o.dequeue();
+        o.enqueue("4XX-1");
         Object output = "4";
         assertEquals(o.dequeue(),output);
     }
