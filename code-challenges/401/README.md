@@ -26,6 +26,9 @@ This file contain read me to each individual code challenges and labs under each
 ## Challenge11: A Queue with two Stacks
 [Queue with two Stacks](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/queueTwoStacks.md)
 
+## Challenge12: First-in, First out Animal Shelter.
+[Queue with two Stacks](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/queueAnimalShelter.md)
+
 # Labs
 
 # Lab5:Singly Linked List
