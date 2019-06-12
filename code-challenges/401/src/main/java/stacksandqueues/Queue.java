@@ -5,7 +5,7 @@ public class Queue<T> {
     private Node last;
 
 
-    Queue(){
+    public Queue(){
         this.setFirst(null);
         this.setLast(null);
     }
