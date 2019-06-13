@@ -21,6 +21,9 @@ Square Brackets : []
 Curly Brackets : {}
 
 
+## Reference
+[Link](https://www.thepolyglotdeveloper.com/2015/02/validate-bracket-parenthesis-combos-using-stacks/)
+
 ## Approach & Efficiency
 O(N) Linear
 
