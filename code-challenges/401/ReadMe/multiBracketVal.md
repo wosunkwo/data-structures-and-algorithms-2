@@ -3,13 +3,21 @@
 # Sample Input/Output 
 
 Input	                    Output
+
 {}	                      TRUE
+
 {}(){}	                  TRUE
+
 ()[[Extra Characters]]	  TRUE
+
 (){}[[]]	                TRUE
-{}{Code}[Fellows](())	    TRUE
+
+{}{Code}[](())	          TRUE
+
 [({}]	                    FALSE
+
 (](	                      FALSE
+
 {(})	                    FALSE
 
 ## ChallengeAfunction that takee a string as its only argument, 
