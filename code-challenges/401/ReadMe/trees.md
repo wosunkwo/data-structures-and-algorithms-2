@@ -23,9 +23,10 @@ A method called pre-order which return List with elements of tree pre order
 A method called post-order which return List with elements of tree post order
 
 Reference:
-(BST)[https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/]
+[BST](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 
 ## Codes
 
 [Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/tree/Tree.java)
+
 [Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/tree/TreeTest.java)
