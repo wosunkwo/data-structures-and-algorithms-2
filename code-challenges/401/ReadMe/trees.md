@@ -22,7 +22,7 @@ A method called inorder which return List with elements of tree in order
 A method called pre-order which return List with elements of tree pre order
 A method called post-order which return List with elements of tree post order
 
-Reference:
+## Reference:
 [BST](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
 
 ## Codes
