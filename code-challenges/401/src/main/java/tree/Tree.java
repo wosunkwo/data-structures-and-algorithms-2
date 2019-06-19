@@ -21,7 +21,7 @@ public class Tree<T extends Comparable<T>> {
     /*
     Constructor
      */
-    Tree(){
+    public Tree(){
         this.setSize(0);
         this.setRoot(null);
     }
