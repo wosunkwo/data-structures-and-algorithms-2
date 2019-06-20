@@ -37,6 +37,13 @@ This file contain read me to each individual code challenges and labs under each
 
 ## Challenge 17: Breadth first traverse
 [Breadth first traverse](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/breadthFirstTraverse.md)
+
+## Challenge 17: Breadth first traverse
+[Breadth first traverse](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/breadthFirstTraverse.md)
+
+## Challenge 18: Maximum Value in a Binary Tree
+[Max Value in BST](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/maxValueBST.md)
+
 # Labs
 
 # Lab5:Singly Linked List
