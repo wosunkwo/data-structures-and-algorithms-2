@@ -5,6 +5,10 @@ public class Node<T extends Comparable<T>>{
     private Node<T> left;
     private Node<T> right;
 
+    public Node(){
+        this.setData(null);
+        this.setLeft(null);
+        this.setRight(null);};
     Node(T data){
         this.setData(data);
         this.setLeft(null);
