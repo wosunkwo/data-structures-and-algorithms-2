@@ -57,5 +57,5 @@ This file contain read me to each individual code challenges and labs under each
 
 # Lab26: Implement InsertionSort
 [InsertionSort](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/insertionSort.md)
-)
+
 
