@@ -3,13 +3,18 @@
 
 ## Learning Objectives
 > Students will be able to create a reasonable architecture for sorting an array.
+
 > Students will be able to implement a insertion sort. 
 
 ## Lecture Flow
 > Understanding the merger sort
+
 > Going over the pseudo code
+
 > Implement the pseudo to actual code
+
 > Going over the test case
+
 > Look for alternative solutions
 
 ## Solution
