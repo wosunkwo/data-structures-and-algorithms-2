@@ -18,6 +18,6 @@ Please refer the lecture notes section
 
 ## Codes
 
-[Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/tree/InsertionSort.java)
+[Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/InsertionSort/InsertionSort.java)
 
-[Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/tree/InsertionSortTest.java)
+[Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/InsertionSort/InsertionSortTest.java)
