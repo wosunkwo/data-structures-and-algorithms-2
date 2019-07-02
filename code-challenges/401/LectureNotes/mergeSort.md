@@ -1,5 +1,5 @@
 # Lecture Notes: Insertion Sort
-> Insertion sort is a sorting algorithm in which the elements are transferred one at a time to the right position. In other words, an insertion sort helps in building the final sorted list, one item at a time, with the movement of higher-ranked elements. 
+> In computer science, merge sort is an efficient, general-purpose, comparison-based sorting algorithm. Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945 
 
 ## Learning Objectives
 > Students will be able to create a reasonable architecture for sorting an array.
