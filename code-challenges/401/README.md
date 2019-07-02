@@ -44,6 +44,9 @@ This file contain read me to each individual code challenges and labs under each
 ## Challenge 18: Maximum Value in a Binary Tree
 [Max Value in BST](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/maxValueBST.md)
 
+## Challenge 27: Merge Sort
+[Merge Sort](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/mergeSort.md)
+
 # Labs
 
 # Lab5:Singly Linked List
