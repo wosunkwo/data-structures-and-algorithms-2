@@ -3,24 +3,24 @@
 ## Table of Contents
 This file contain read me to each individual code challenges and labs under each heading
 
-# Code Challenge
+## Code Challenge
 
-> ## Challenge 01: ArrayReverse
+> Challenge 01: ArrayReverse
 [ArrayReverse](https://github.com/skadariya/data-structures-and-algorithms/tree/master/code-challenges/401/PreWork)
 
-> ## Challenge02:ArrayShift
+> Challenge02:ArrayShift
 [ArrayShift](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/ArrayShift_ReadMe.md)
 
-> ## Challenge03:Binary Search in Sorted Array
+> Challenge03:Binary Search in Sorted Array
 [BinarySearch](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/BinarySearch.md)
 
-> ## Challenge06:Binary Search in Sorted Array
+>  Challenge06:Binary Search in Sorted Array
 [Linked list insertions.](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/LL_Insertions.md)
 
-> ## Challenge07:k-th value from the end of a linked list.
+> Challenge07:k-th value from the end of a linked list.
 [k-th value](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/kThValue.md)
 
-> ## Challenge08: Merge two linked lists.
+>  Challenge08: Merge two linked lists.
 [Merge](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/merge.md)
 
 > Challenge11: A Queue with two Stacks
@@ -51,18 +51,18 @@ This file contain read me to each individual code challenges and labs under each
 [Quick Sort](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/quickSort.md)
 
 
-# Labs
+## Labs
 
-# Lab5:Singly Linked List
+> Lab5:Singly Linked List
 [Lab5- Singly Linked List](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/SinglyLinkedList.md)
 
-# Lab10: Stack and Queue
+> Lab10: Stack and Queue
 [Stack and Queue](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/stackQueue.md)
 
-# Lab15: Implement a Tree
+> Lab15: Implement a Tree
 [Trees](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/trees.md)
 
-# Lab26: Implement InsertionSort
+> Lab26: Implement InsertionSort
 [InsertionSort](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/ReadMe/insertionSort.md)
 
 
