@@ -1,4 +1,4 @@
-# Trees
+# Hash Table
 Implement a Hash Table
 
 ## Challenge
