@@ -36,6 +36,6 @@ O(log n) , constant
 
 ## Codes
 
-[Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/hashtable/Hashtable.java)
+[Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/hashtable/Hashtable.java)
 
-[Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/hashTable/HashtableTest.java)
+[Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/hashtable/HashtableTest.java)
