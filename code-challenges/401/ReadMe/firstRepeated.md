@@ -8,14 +8,15 @@ Implement a first repeated word in a book.
 > Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 ## Approach & Efficiency
-O(log n) , constant 
+O(n) , constant 
 
 ## API
-> coming soon
+> RepeatWord : Which accepts the String Object
 
 ## Reference:
 
 
 ## Codes
-[Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/first_repeat/FirstRepeat.java)
-[Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/first_repeat/FirstRepeatTest.java)
+> [Code Source](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/main/java/codeChallenge/first_repeat/FirstRepeat.java)
+
+> [Test Code](https://github.com/skadariya/data-structures-and-algorithms/blob/master/code-challenges/401/src/test/java/codeChallenge/first_repeat/FirstRepeatTest.java)
